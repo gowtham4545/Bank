@@ -6,6 +6,9 @@ from django.http import HttpResponse
 def index(request):
     html = f'''
     <html>
+        <head>
+            <title>VGBank</title>
+        </head>
         <body>
             <h1>Welcome to the Bank!</h1>
         </body>
